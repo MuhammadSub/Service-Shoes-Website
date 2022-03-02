@@ -1,0 +1,482 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+    
+   
+   
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+}
+
+.header-1{
+    position: fixed !important;
+    background: deepskyblue;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    padding: 21px 40px 0 24px;
+    transition: all ease 1s;
+}
+
+.logo{
+    float: left;
+    width: 150%;
+    margin-top: 6px;
+    text-align: left;
+    padding: 0 0 25px;
+}
+
+.logo a{
+    max-width: 100%;
+    height: auto;
+	color: white;
+	margin-left: 40px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.logo a:hover{
+	text-decoration: none;
+}
+
+
+.mainmenu{
+    position: relative;
+	margin-left: 100px;
+}
+
+.mainmenu ul{
+    margin-top: -10px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 40px;
+    padding: 0;
+}
+
+
+.mainmenu ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 0.8;
+    padding: 25px 20px 18px;
+    position: relative;
+}
+
+
+
+.mainmenu ul li a{
+    display: block;
+    color: white;
+    font-size: 17px;
+    line-height: 0.8;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    padding: 0px;
+    letter-spacing: 1px;
+}
+
+
+
+.mainmenu ul li a:after{
+    position: absolute;
+    width: 0;
+    height: 1px;
+    content: '';
+    background: white;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    transition: all 0.4s ease-out;
+}
+
+
+.mainmenu ul li a:hover{
+    color: white;
+}
+
+
+
+.mainmenu ul li a:hover:after{
+    width: 100%;
+}
+.fixedHeader {
+left: 0; 
+   position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);     
+} 
+
+.slideshow-container{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+.myslides{
+	max-width: 100%;
+    position: relative;
+    margin: auto;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.myslides .p_detail{
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    z-index: 30;
+}
+.myslides .p_detail h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 105px;
+}
+.myslides .p_detail .cta-div{
+    margin-top: 30px;
+     }
+.myslides .p_detail .cta-div .btn1{
+    padding: 13px 25px;
+   font-size: 14px;
+    background-color: #34495e;
+    color: white;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+    
+    
+}
+.myslides .p_detail .cta-div .btn1:hover
+{
+    border: 2px solid white;
+    background-color: transparent;
+    text-decoration: none; 
+}
+.myslides .p_detail .cta-div .btn2
+{
+    padding: 13px 18px;
+    font-size: 14px;
+    background-color: #34495e;
+    color: white;
+    transition: all 0.5s ease-in;
+    margin-right:10px;
+}
+.myslides .p_detail .cta-div .btn2:hover
+{
+    border: 2px solid white;
+    background-color: transparent;
+    text-decoration: none; 
+}
+
+.services
+{
+    margin-top: 40px;
+}
+.services h2{
+	color:#363535;
+	margin-bottom: 40px;
+}
+.services-wrap
+{  
+    box-shadow: 0px 3px 10px rgba(0,0,0,.1);
+}
+
+.product-img
+{
+    position: relative;
+	margin-bottom: 50px;
+    height: 250px;
+}
+.shop
+{
+    background: transparent;
+    height: 70px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    padding: 10px;
+	Left: 32%;
+   
+}
+.shop a
+{
+    font-size: 14px;
+    background-color: #34495e;
+    padding: 10px 20px;
+    color: white;
+    transition: all 0.5s  ease-in;
+}
+.shop a:hover
+{
+    border: 2px solid white;
+    background-color: transparent;
+    margin-right: 0;
+    text-decoration: none; 
+}
+.services .loadbtn{
+    padding: 13px 25px;
+	margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	background-color: #34495e;
+    color: white;
+    transition: all 0.5s  ease-in;
+}
+.services .loadbtn:hover{
+    border: 2px solid #34495e;
+	color: #34495e;
+    background-color: transparent;  
+	text-decoration: none;
+}
+
+.service-area2{
+    margin-top: 40px;
+	margin-bottom: 30px;
+}
+.short-about {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 40px 40px 58px 40px ;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+	margin: 0px -30px 30px -30px ;
+}
+.short-about h3{
+    font-size: 28px;
+	color: #413E3E;
+    font-weight: 700;
+    padding-bottom: 13px;
+    position: relative;
+}
+.short-about p
+{
+    font-size: 13px;
+	color: #8C8788;
+    margin-bottom: 30px;
+}
+.short-about .ambtn{
+    padding: 13px 18px;
+	margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    background-color: #34495e;
+    color: white;
+    transition: all 0.5s  ease-in;
+}
+.short-about .ambtn:hover{
+    border: 2px solid #34495e;
+	color: #34495e;
+    background-color: transparent;  
+	text-decoration: none;   
+}
+
+
+
+.team h2{
+	color: #2F2E2E;
+}
+.team p{
+	color: #676464;
+	font-size: 14px;
+}
+.team-member
+{
+    margin-top: 30px;
+}
+ 
+.team-member-info
+{
+    padding: 10px 0 30px 0;
+}
+h4.team-member-name
+{
+	color: #676464;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+h4.team-member-designation
+{
+    color: #676464;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;  
+}
+
+.contact-area
+{
+    margin-top: 60px;
+	color: black;
+}
+
+
+.form-control
+{
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important;
+    
+}
+
+
+.contact-form button.btn
+{
+    padding: 13px 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+	background-color: #34495e;
+    color: white;
+    transition: all 0.5s  ease-in;
+    margin-right:10px;
+}
+.contact-form button.btn:hover
+{
+    border: 2px solid #34495e;
+	color: #34495e;
+    background-color: transparent;  
+	text-decoration: none;
+    
+}
+.footer{
+    font-size: 1rem;
+    font-family: 'Roboto Condensed',sans-serif;
+    background-color: #363333;
+	padding-bottom: 15px;
+}
+
+.col-heading{
+    text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+    margin-bottom: 12px;
+	color: white;    
+}
+
+.mb-2{
+    margin-bottom: 0.5rem !important;
+}
+
+.footer ul li a{
+    font-size: 12px;
+    color: white;
+}
+.footer .copywrite p{
+	font-size: 12px;
+	padding-bottom: 30px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
